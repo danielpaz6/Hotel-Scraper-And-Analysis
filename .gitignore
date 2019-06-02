@@ -1,0 +1,9 @@
+# Ignore the output files such as CSV.
+booking.csv
+expedia.csv
+
+# No need to see the backup folder, useless
+venv/backup/
+
+# No need for that folder either
+.idea/
