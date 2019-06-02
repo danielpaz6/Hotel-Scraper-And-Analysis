@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="072bbf79-83e9-4328-9bd2-a2ee6f18ec74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            <state relative-caret-position="153">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -321,7 +321,7 @@
       <workItem from="1558991285633" duration="1429000" />
       <workItem from="1559460740982" duration="1764000" />
       <workItem from="1559468865028" duration="3502000" />
-      <workItem from="1559475335291" duration="7000000" />
+      <workItem from="1559475335291" duration="7553000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized.">
       <created>1559476302996</created>
@@ -344,11 +344,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559476694780</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added travis.yml file.">
+      <created>1559483511699</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559483511699</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated python's version">
+      <created>1559483686430</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559483686430</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83025000" />
+    <option name="totallyTimeSpent" value="83578000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -363,18 +377,18 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17057396" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17057396" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.3102837" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" weight="0.3102837" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4987874" weight="0.32978722" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.497979" weight="0.28368795" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.497979" visible="true" weight="0.28368795" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.3102837" />
       <window_info anchor="bottom" id="Terminal" order="11" />
@@ -393,7 +407,9 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Initialized." />
     <MESSAGE value="Some comment changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Some comment changes." />
+    <MESSAGE value="Added travis.yml file." />
+    <MESSAGE value="Updated python's version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated python's version" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/seltest$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1555628105842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
@@ -504,8 +520,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        <state relative-caret-position="153">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
