@@ -63,7 +63,7 @@ for k in range(1, 6):
                 hotelReviews = re.sub(' reviews\)', '', hotelReviews)
                 hotelReviews = re.sub('\(', '', hotelReviews)
 
-                # Checks if the data already exists !
+                # Checks if the data already exists !!
                 if [
                     todaysDate2,
                     tomorrowsDate2,
