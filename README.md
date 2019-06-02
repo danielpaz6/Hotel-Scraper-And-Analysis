@@ -1,4 +1,4 @@
-# Hotel `Scraper` And `Analysis`
+## Hotel `Scraper` And `Analysis`
 
 [![Travis-CI Build Status](https://travis-ci.com/danielpaz6/Hotel-Scraper-And-Analysis.svg?branch=master)](https://travis-ci.com/danielpaz6/Hotel-Scraper-And-Analysis)
 
