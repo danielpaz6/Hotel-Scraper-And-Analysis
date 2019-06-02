@@ -1,4 +1,9 @@
-# Hotel Scraper And Analysis
+# Hotel `Scraper` And `Analysis`
+
+[![Travis-CI Build Status](https://travis-ci.com/danielpaz6/Hotel-Scraper-And-Analysis.svg?branch=master)](https://travis-ci.com/danielpaz6/Hotel-Scraper-And-Analysis)
+
+### Hotel Scraper for research project structured to analysis data and predict prices.
+
 As part of a research I am doing at the college, I need to go into the various hotel sites, extract data from them and analyze them.
 This project is going to be updated regularly during the coming semesters until the end of the research.
 
