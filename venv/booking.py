@@ -43,7 +43,7 @@ for l in range(1, 6):
                 for i in range(num_of_blocks):
                     try:
                         hotelName = blocks[i].find_element_by_class_name("sr-hotel__name")
-                        hotelPrice = blocks[i].find_element_by_class_name("price")
+                        hotelPrice = blocks[i].find_element_by_class_name("bui-price-display__value")
                         hotelRating = blocks[i].find_element_by_class_name("bui-review-score__badge")
                         hotelReviews = blocks[i].find_element_by_class_name("bui-review-score__text")
 
