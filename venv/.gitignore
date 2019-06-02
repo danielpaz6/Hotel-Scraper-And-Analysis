@@ -3,4 +3,7 @@ booking.csv
 expedia.csv
 
 # No need to see the backup folder, useless
-backup/
+venv/backup/
+
+# No need for that folder either
+.idea/

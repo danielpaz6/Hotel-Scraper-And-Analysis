@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="072bbf79-83e9-4328-9bd2-a2ee6f18ec74" name="Default Changelist" comment="">
+    <list default="true" id="072bbf79-83e9-4328-9bd2-a2ee6f18ec74" name="Default Changelist" comment="Made some changes to .gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/venv/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+            <state relative-caret-position="136">
+              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -346,7 +347,7 @@
       <workItem from="1558991285633" duration="1429000" />
       <workItem from="1559460740982" duration="1764000" />
       <workItem from="1559468865028" duration="3502000" />
-      <workItem from="1559475335291" duration="8765000" />
+      <workItem from="1559475335291" duration="8921000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized.">
       <created>1559476302996</created>
@@ -411,11 +412,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559485140502</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="created ,gitignore file">
+      <created>1559485260783</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1559485260783</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84790000" />
+    <option name="totallyTimeSpent" value="84946000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -581,8 +589,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        <state relative-caret-position="136">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
