@@ -37,7 +37,7 @@ An example for data that could be extracted from these website:
 
 ## Getting Started
 
-In order to fulfill this research needs, I had to learn Python independently, since it is a language that supports functional programming, friendly programming that is suitable for the purposes of research.
+In order to fulfill this research needs, I had to learn Python independently, since it is a language that supports functional programming, friendly, and is suitable for the purposes of research.
 
 The files on this repositoriy
 
