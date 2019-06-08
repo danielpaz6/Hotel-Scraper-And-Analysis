@@ -49,19 +49,21 @@ for k in range(1, 6):
         employee_writer = csv.writer(employee_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         for i in range(num_of_blocks):
             try:
-                #hotelName = blocks[i].find_element_by_xpath("//h3[data-stid=content-hotel-title]")
-                hotelName = blocks[i].find_element_by_class_name("listing__link")
-                hotelName = re.sub('Click for more information about ', '', hotelName.text)
-                hotelPrice = blocks[i].find_element_by_class_name("content-hotel-lead-price--a11y")
-                #hotelRating = blocks[i].find_elements_by_tag_name("span")
-                hotelRating = blocks[i].find_element_by_class_name("reviews")
-                hotelRating = hotelRating.find_elements_by_tag_name('span')
-                hotelReviews = hotelRating[2].text
-                hotelRating = hotelRating[0].text
+                hotelName = blocks[i].find_element_by_tag_name("h3");
+                hotelPrice = blocks[i].find_element_by_class_name("content-hotel-lead-price--a11y");
+                hotelRank = blocks[i].find_element_by_class_name("listing__reviews");
+                hotelRank = hotelRank.find_elements_by_tag_name('span')
+                hotelRating = hotelRank[0].text;
 
+                if ("reviews" in hotelRank[1].text):
+                    hotelReviews = hotelRank[1].text;
+                else:
+                    hotelReviews = hotelRank[2].text;
 
-                hotelReviews = re.sub(' reviews\)', '', hotelReviews)
-                hotelReviews = re.sub('\(', '', hotelReviews)
+                hotelReviews = re.sub(' reviews\)', '', hotelReviews);
+                hotelReviews = re.sub('\(', '', hotelReviews);
+
+                hotelName = hotelName.text;
 
                 # Checks if the data already exists !!
                 if [
