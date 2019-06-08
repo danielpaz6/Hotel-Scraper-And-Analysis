@@ -21,7 +21,7 @@ And only when the customer is certain that he's interest in purchasing a room re
 The idea is not to always use the database of hotel sites, but only if the user really wants to buy, thus saving significant costs of money on the service and use of the same databases provided by hotel sites.
 
 ## How it works
-So there are two main files: ```expedia.py``` and ```booking.py``` that basically just extract the hotels suggestion from these websites, and saves them in a CSV file that later on will be used for analysis.
+So there are two main files: ```expedia.py``` and ```booking.py``` that basically just extract the hotels data from these websites, and saves them in a CSV file that later on will be used for analysis.
 
 An example for data that could be extracted from these website:
 
@@ -37,9 +37,7 @@ An example for data that could be extracted from these website:
 
 ## Getting Started
 
-In order to fulfill this research needs, I had to learn Python independently, since it is a language that supports functional programming, friendly programming that is suitable for the purposes of research.
-
-The files on this repositoriy
+In order to fulfill this research needs, I had to learn Python independently, since it is a language that supports functional programming, friendly, and is suitable for the purposes of research.
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
