@@ -9,7 +9,7 @@ newAddedRows = 0;
 RIGHTnow = time.localtime(time.time());
 RIGHTtodaysDate = strftime("%d-%m-%Y", RIGHTnow);
 
-for z in range(29, 30):
+for z in range(0, 30):
     for l in range(1, 6): # walk through days ( for example hotels from 1 day to 3 days )
         now = time.localtime(time.time() + (24 * 3600 * z));
         tomorrow = time.localtime(time.time() + (24*3600 * l) + (24 * 3600 * z))
