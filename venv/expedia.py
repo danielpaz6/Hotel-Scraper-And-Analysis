@@ -68,6 +68,9 @@ for z in range(0,30):
 
                     hotelName = hotelName.text;
 
+                    if ("reviews" in hotelReviews):
+                        continue;
+
                     # Checks if the data already exists !!
                     if [
                         RIGHTtodaysDate,

@@ -62,10 +62,6 @@ for z in range(0, 30):
                             flagcount += 1
                             continue;
 
-                        if("reviews" in re.sub('([^0-9,])+', '',hotelReviews.text)):
-                            flagcount += 1
-                            continue;
-
                         # date, hotelName, hotelPrice ( shekels ), hotelRating, hotelCountReviews
                         try:
                             if[RIGHTtodaysDate,todaysDate,tomorrowsDate,hotelName.text,re.sub('([^0-9,])+', '', hotelPrice.text),hotelRating.text + "/10",re.sub('([^0-9,])+', '',hotelReviews.text)] not in existingLines:
