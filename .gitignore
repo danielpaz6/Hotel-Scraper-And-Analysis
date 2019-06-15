@@ -1,9 +1,16 @@
 # Ignore the output files such as CSV.
 booking.csv
+booking2.csv
 expedia.csv
+expedia2.csv
 
 # No need to see the backup folder, useless
 venv/backup/
 
 # No need for that folder either
 .idea/
+
+# Just for testings
+test.py
+test1.py
+test2.py

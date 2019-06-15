@@ -5,11 +5,14 @@ from selenium import webdriver
 import csv
 import re
 
+chrome_path = r"D:/chromedriver.exe"
+driver = webdriver.Chrome(chrome_path)  # Optional argument, if not specified will search path.
+
 counter = 0
 RIGHTnow = time.localtime(time.time());
 RIGHTtodaysDate = strftime("%d-%m-%Y", RIGHTnow);
 
-for z in range(0,30):
+for z in range(0,15):
     for k in range(1, 6): # walk through dates ( 1 to 5 )
         now = time.localtime(time.time() + (24 * 3600 * z));
         tomorrow = time.localtime(time.time() + (24 * 3600 * k) + (24 * 3600 * z))
@@ -30,8 +33,6 @@ for z in range(0,30):
 
         endDate = tomorrowsDate
 
-        chrome_path = r"D:/chromedriver.exe"
-        driver = webdriver.Chrome(chrome_path)  # Optional argument, if not specified will search path.
         # driver.get('https://www.expedia.com/Hotel-Search?destination=New+York%2C+New+York&latLong=40.75668%2C-73.98647&regionId=178293&startDate=" + _startDate + "&endDate=" + _endDate + "&rooms=1&adults=1');
         driver.get(
             'https://www.expedia.com/Hotel-Search?destination=New+York%2C+NY+%28LGA-LaGuardia%29&latLong=40.77429%2C-73.872035&regionId=4278092&startDate='+todaysDate+'&endDate='+endDate+'&rooms=1&adults=1');
@@ -100,7 +101,6 @@ for z in range(0,30):
                 except:
                     print("not found")
 
-        driver.quit()
-
+driver.quit()
 print("rows added: " + counter.__str__())
 print("done")
