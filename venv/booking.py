@@ -62,7 +62,7 @@ for z in range(0, 30):
                             flagcount += 1
                             continue;
 
-                        if("reviews" in hotelReviews.text):
+                        if("reviews" in re.sub('([^0-9,])+', '',hotelReviews.text)):
                             flagcount += 1
                             continue;
 
