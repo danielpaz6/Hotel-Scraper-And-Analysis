@@ -54,7 +54,7 @@ for z in range(0,15):
             for i in range(num_of_blocks):
                 try:
                     hotelName = blocks[i].find_element_by_tag_name("h3");
-                    hotelPrice = blocks[i].find_element_by_class_name("content-hotel-lead-price--a11y");
+                    hotelPrice = blocks[i].find_element_by_xpath("//span[@data-stid='content-hotel-lead-price']"); # Updated
                     hotelRank = blocks[i].find_element_by_class_name("listing__reviews");
                     hotelRank = hotelRank.find_elements_by_tag_name('span')
                     hotelRating = hotelRank[0].text;
