@@ -4,6 +4,8 @@ booking2.csv
 expedia.csv
 expedia2.csv
 
+*.csv
+
 # No need to see the backup folder, useless
 venv/backup/
 
