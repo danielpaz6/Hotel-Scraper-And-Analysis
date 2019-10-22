@@ -11,8 +11,11 @@ import re
 hotelName = "Hotel Americano";
 nights = 1;
 
+csvFileName = hotelName.__str__() + '_' + nights.__str__() + '_nights.csv';
+fieldnames = ['Check-In Date', 'Price']
+
 i = 0
-with open('hotel_final.csv', mode='a', newline='') as employee_file:
+with open(csvFileName, mode='a', newline='') as employee_file:
     with open('booking_final.csv', 'r') as file1: # FILE2 (15-30]
         hotelCsv = csv.writer(employee_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         fileLines = [line for line in csv.reader(file1, delimiter=',')]
