@@ -9,6 +9,13 @@ import csv
 import re
 from operator import itemgetter
 
+def is_number(s):
+    try:
+        float(s)
+        return True
+    except ValueError:
+        return False
+
 def sorting(L):
     splitup = L.split('-')
     return int(splitup[2]), int(splitup[1]), int(splitup[0])
@@ -36,15 +43,15 @@ for hotelName in hotelList:
             # Only results with 1 nights
             specificHotel = list(filter(lambda x: (datetime.strptime(x[2], '%d-%m-%Y') - datetime.strptime(x[1], '%d-%m-%Y')).days == nights, specificHotel));
 
-            # Slice the list
+            # Filter the rows that their price != NULL
+            specificHotel = list(filter(lambda row: is_number(row[4]), specificHotel))
+
+            # Slice the list, keeping only the: "Check-in Date" column and "Price" column.
             getter = itemgetter(1, 4)
             specificHotel = list(map(list, map(getter, specificHotel)))
 
             # Sorting the rows according by date
             specificHotel.sort(key = lambda row: sorting(row[0]))
-            #specificHotel.sort(key = lambda row: (datetime.strptime(row[0], '%d-%m-%Y')))
-            #sorted(specificHotel, key=lambda x: datetime.strptime(x[1], '%d-%m-%Y'))
-            #sorted(specificHotel, key=lambda x: sorting(x[0]))
 
             # Add the headers of the CSV
             hotelCsv.writerow([fieldnames[0], fieldnames[1]]);
