@@ -42,13 +42,17 @@ tmpn3 = -1
 
 print("Running...")
 for n1 in range (1, 5):
-    for n2 in range(0, 5):
+    for n2 in range(0, 3): # NOTE: d > 2 is not supported
         for n3 in range(0, 3):
             if (n1,n2,n3) in [(1,0,0), (1,0,1), (1,0,2), (1,0,3), (1,0,4), (1,1,0), (1,1,1), (1,1,2), (1,2,0)]:
+                history = [x for x in train]
+                predictions = list()
                 continue;
 
             history = [x for x in train]
             predictions = list()
+            exceptionFlag = False
+
             for t in range(len(test)):
                 tmpOrder = (n1,n2,n3)
                 model = ARIMA(history, order=tmpOrder)
@@ -56,7 +60,10 @@ for n1 in range (1, 5):
                 try:
                     model_fit = model.fit(disp=0)
                 except:
-                    continue;
+                    history = [x for x in train]
+                    predictions = list()
+                    exceptionFlag = True
+                    break;
 
                 output = model_fit.forecast()
                 yhat = output[0]
@@ -65,20 +72,21 @@ for n1 in range (1, 5):
                 history.append(obs)
                 #print('predicted=%f, expected=%f' % (yhat, obs))
 
-            error = mean_squared_error(test, predictions)
+            if exceptionFlag == False:
+                error = mean_squared_error(test, predictions)
 
-            if(error < minError):
-                minError = error
-                tmpn1 = n1
-                tmpn2 = n2
-                tmpn3 = n3
+                if(error < minError):
+                    minError = error
+                    tmpn1 = n1
+                    tmpn2 = n2
+                    tmpn3 = n3
 
-            print("-----------------------------")
-            print('Test MSE: %.3f' % error)
-            print('p =  ' + n1.__str__())
-            print('d =  ' + n2.__str__())
-            print('q =  ' + n3.__str__())
-            print("-----------------------------")
+                print("-----------------------------")
+                print('Test MSE: %.3f' % error)
+                print('p =  ' + n1.__str__())
+                print('d =  ' + n2.__str__())
+                print('q =  ' + n3.__str__())
+                print("-----------------------------")
 
             # plot
             #pyplot.plot(test)

@@ -1,0 +1,133 @@
+C:\Users\DANIEL\PycharmProjects\seltest\venv\Scripts\python.exe C:/Users/DANIEL/PycharmProjects/seltest/venv/arima_testing/analyzeHotel.py
+Running...
+-----------------------------
+Test MSE: 1066.622
+p =  2
+d =  0
+q =  0
+-----------------------------
+-----------------------------
+Test MSE: 1058.858
+p =  2
+d =  0
+q =  1
+-----------------------------
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\tsa\tsatools.py:668: RuntimeWarning: overflow encountered in exp
+  newparams = ((1-np.exp(-params))/(1+np.exp(-params))).copy()
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\tsa\tsatools.py:668: RuntimeWarning: invalid value encountered in true_divide
+  newparams = ((1-np.exp(-params))/(1+np.exp(-params))).copy()
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\tsa\tsatools.py:669: RuntimeWarning: overflow encountered in exp
+  tmp = ((1-np.exp(-params))/(1+np.exp(-params))).copy()
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\tsa\tsatools.py:669: RuntimeWarning: invalid value encountered in true_divide
+  tmp = ((1-np.exp(-params))/(1+np.exp(-params))).copy()
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\base\model.py:512: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+-----------------------------
+Test MSE: 1083.204
+p =  2
+d =  1
+q =  0
+-----------------------------
+-----------------------------
+Test MSE: 1055.054
+p =  2
+d =  1
+q =  1
+-----------------------------
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\tsa\tsatools.py:668: RuntimeWarning: overflow encountered in exp
+  newparams = ((1-np.exp(-params))/(1+np.exp(-params))).copy()
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\tsa\tsatools.py:668: RuntimeWarning: invalid value encountered in true_divide
+  newparams = ((1-np.exp(-params))/(1+np.exp(-params))).copy()
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\tsa\tsatools.py:669: RuntimeWarning: overflow encountered in exp
+  tmp = ((1-np.exp(-params))/(1+np.exp(-params))).copy()
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\tsa\tsatools.py:669: RuntimeWarning: invalid value encountered in true_divide
+  tmp = ((1-np.exp(-params))/(1+np.exp(-params))).copy()
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\base\model.py:512: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+-----------------------------
+Test MSE: 1468.210
+p =  2
+d =  2
+q =  0
+-----------------------------
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\base\model.py:512: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+-----------------------------
+Test MSE: 1073.432
+p =  3
+d =  0
+q =  0
+-----------------------------
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\tsa\tsatools.py:668: RuntimeWarning: overflow encountered in exp
+  newparams = ((1-np.exp(-params))/(1+np.exp(-params))).copy()
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\tsa\tsatools.py:668: RuntimeWarning: invalid value encountered in true_divide
+  newparams = ((1-np.exp(-params))/(1+np.exp(-params))).copy()
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\tsa\tsatools.py:669: RuntimeWarning: overflow encountered in exp
+  tmp = ((1-np.exp(-params))/(1+np.exp(-params))).copy()
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\tsa\tsatools.py:669: RuntimeWarning: invalid value encountered in true_divide
+  tmp = ((1-np.exp(-params))/(1+np.exp(-params))).copy()
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\base\model.py:512: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\base\model.py:512: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\base\model.py:492: HessianInversionWarning: Inverting hessian failed, no bse or cov_params available
+  'available', HessianInversionWarning)
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\base\model.py:492: HessianInversionWarning: Inverting hessian failed, no bse or cov_params available
+  'available', HessianInversionWarning)
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\base\model.py:492: HessianInversionWarning: Inverting hessian failed, no bse or cov_params available
+  'available', HessianInversionWarning)
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\base\model.py:492: HessianInversionWarning: Inverting hessian failed, no bse or cov_params available
+  'available', HessianInversionWarning)
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\base\model.py:492: HessianInversionWarning: Inverting hessian failed, no bse or cov_params available
+  'available', HessianInversionWarning)
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\base\model.py:492: HessianInversionWarning: Inverting hessian failed, no bse or cov_params available
+  'available', HessianInversionWarning)
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\base\model.py:492: HessianInversionWarning: Inverting hessian failed, no bse or cov_params available
+  'available', HessianInversionWarning)
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\base\model.py:492: HessianInversionWarning: Inverting hessian failed, no bse or cov_params available
+  'available', HessianInversionWarning)
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\base\model.py:492: HessianInversionWarning: Inverting hessian failed, no bse or cov_params available
+  'available', HessianInversionWarning)
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\base\model.py:492: HessianInversionWarning: Inverting hessian failed, no bse or cov_params available
+  'available', HessianInversionWarning)
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\base\model.py:492: HessianInversionWarning: Inverting hessian failed, no bse or cov_params available
+  'available', HessianInversionWarning)
+-----------------------------
+Test MSE: 1084.711
+p =  3
+d =  1
+q =  0
+-----------------------------
+-----------------------------
+Test MSE: 1420.689
+p =  3
+d =  2
+q =  0
+-----------------------------
+-----------------------------
+Test MSE: 1074.452
+p =  4
+d =  0
+q =  0
+-----------------------------
+-----------------------------
+Test MSE: 1080.391
+p =  4
+d =  1
+q =  0
+-----------------------------
+-----------------------------
+Test MSE: 1373.577
+p =  4
+d =  2
+q =  0
+-----------------------------
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\base\model.py:512: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+C:\Users\DANIEL\PycharmProjects\seltest\venv\lib\site-packages\statsmodels\base\model.py:512: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  "Check mle_retvals", ConvergenceWarning)
+
+MinError: 1055.0537421953823
+p: 2
+d: 1
+q: 1
